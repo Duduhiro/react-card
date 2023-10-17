@@ -1,38 +1,104 @@
-.App {
-  text-align: center;
+.d-flex {
+  display: flex;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+bold {
+  font-weight: 600;
+  color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  width: 30%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+#profile {
+  height: 100%;
+  border-radius: 100%;
+  margin-right: 15px;
+}
+
+.user-infos {
+  height: 100%;
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 18px;
 }
 
-.App-link {
-  color: #61dafb;
+.name-wrapper {
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.user-infos #name {
+  font-weight: 700;
+}
+
+#verified {
+  height: 22px;
+  margin-left: 5px;
+}
+
+.user-infos #username {
+  color: #7b7e83;
+  font-weight: 500;
+}
+
+#message-text {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.message-infos {
+  display: flex;
+  gap: 2px;
+  margin-bottom: 15px;
+  color: #5b656e;
+  font-size: 20px;
+}
+
+.bookmarks {
+  border-top: 1px solid #f3f3f3;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #5b656e;
+  font-size: 20px;
+}
+
+.post-stats {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  border-top: 1px solid #f3f3f3;
+  padding-top: 10px;
+}
+
+svg:hover {
+  cursor: pointer;
+}
+
+.likes {
+  align-items: center;
+  gap: 10px;
+  color: #5b656e;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.comments {
+  align-items: center;
+  gap: 10px;
+  color: #5b656e;
+  font-weight: 600;
+  font-size: 20px;
 }
