@@ -11,20 +11,21 @@ bold {
   background-color: white;
   padding: 20px;
   border-radius: 15px;
-  width: 30%;
+  width: 28%;
 }
 
 .header {
   display: flex;
-  height: 80px;
   justify-content: space-between;
   margin-bottom: 30px;
+  align-items: center;
+  height: fit-content;
 }
 
 #profile {
-  height: 100%;
+  height: 60px;
   border-radius: 100%;
-  margin-right: 15px;
+  margin-right: 10px;
 }
 
 .user-infos {
@@ -42,16 +43,21 @@ bold {
 
 .user-infos #name {
   font-weight: 700;
+  font-size: 20px;
 }
 
 #verified {
-  height: 22px;
+  height: 26px;
   margin-left: 5px;
 }
 
 .user-infos #username {
   color: #7b7e83;
   font-weight: 500;
+}
+
+#logo {
+  height: 60px;
 }
 
 #message-text {
@@ -68,7 +74,7 @@ bold {
 }
 
 .bookmarks {
-  border-top: 1px solid #f3f3f3;
+  border-top: 2px solid #f3f3f3;
   padding-top: 10px;
   padding-bottom: 10px;
   color: #5b656e;
@@ -79,7 +85,7 @@ bold {
   display: flex;
   gap: 20px;
   align-items: center;
-  border-top: 1px solid #f3f3f3;
+  border-top: 2px solid #f3f3f3;
   padding-top: 10px;
 }
 
